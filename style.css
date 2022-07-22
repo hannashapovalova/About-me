@@ -51,7 +51,11 @@ p {
     box-shadow: var(--box-shadow);
     color: white;
 }
-
+@media (max-width: 280px) {
+    .primary-link {
+        font-weight: 12px;
+    }
+}
 .secondary-link {
     border-radius: 4px;
     padding: 20px 15px;
